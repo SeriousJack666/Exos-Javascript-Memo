@@ -1,0 +1,43 @@
+body {
+    background-image: url("img/fondEcran.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2 {
+    text-align: center;
+    color: darkcyan;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper > div {
+    height: 275px;
+    width: 150px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carte {
+    background-image: url('img/card.jpg');
+    background-size: 125px 230px;
+}
+
+.selectedCard {
+    background-size: 150px 275px;
+    border-radius: 15px;
+
+}
+
+.appariee {
+
+    background-size: 100px 184px;
+    border-radius: 15px;
+}
+
