@@ -101,3 +101,6 @@ page.addEventListener("click", function (ev) {
     }
 
 }, false);
+
+
+//plein de trucs encore à faire!!!!!!
